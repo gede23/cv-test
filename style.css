@@ -1,0 +1,181 @@
+*{
+    background-color: #8B4513;
+}
+h1{
+    color: #282828;
+}
+p{
+    color:whitesmoke;
+}
+* input{
+    border: solid 3px red;
+    background-color:white;
+}
+textarea{
+    background-color:white;
+    border: red 3px solid;
+}
+#about-me{
+    color:#87CEEB;
+    margin-top: 90px;
+
+}
+#about-me li{
+    color:#87CEEB;
+    background-color: orange;
+    
+}
+#intro p:nth-of-type(1){
+    background-color: seagreen;
+}
+
+a:visited{
+    color:grey;
+}
+h1:hover {
+    background-color: blue;
+  }
+  a:hover{
+      background-color: red;
+  }
+
+  h4::first-letter{
+    color: green;
+    font-size: 50px;
+    }
+    .open{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+      width: 576px;
+      border: 2px solid #89e705;
+        }
+@media (min-width: 576px){ 
+    .open{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  width: 576px;
+  border: 2px solid #89e705;
+    }
+    .head{
+    margin: 30px;
+    padding: 25px;
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h1{
+    font-size: 1.5rem;
+    color: blueviolet;
+
+    }
+    h2{
+    font-size: 1rem;
+    }
+    p{
+        font-size: 5px;
+        font-style: italic;
+        color: darkseagreen;
+    }  
+    
+@media (min-width: 768px){ 
+    .open{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+      width: 768px;
+      border: 2px solid #89e705;
+      display: flex;
+      
+      justify-content: center;
+      display: flex;
+      justify-content: space-around;
+    }
+    .head{
+        
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    h1{
+        font-size: 1.5rem;
+        background-color: palegreen;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 10px;
+    }
+    
+    
+}
+@media (min-width: 992px){ 
+    .open{
+        position: fixed;
+        top: 0;
+        right: 0;
+      width: 992px;
+      border: 3px solid #73AD21;
+    
+    }
+    .head{
+    margin: 90px;
+    padding: 85px;
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h1{
+        font-size: 2rem;
+        background-color: #89e705;   
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+  }
+ #intro p ::selection{
+     background-color: red;
+ }
+ p{
+    font-size: 15px;
+    font-style: italic;
+    color: darkgoldenrod;
+}  
+}
+@media (min-width: 1200px){ 
+    .open{
+        position: fixed;
+        top: 0;
+        right: 0;
+      width: 1200px;
+      border: 3px solid #73AD21;
+    
+    }
+    .head{
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h1{
+        font-size: 2rem;
+
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+  p{
+      font-size: 20px;
+      font-style: italic;
+      color: blue;
+  }
+ 
+  
+}
+ 
+
